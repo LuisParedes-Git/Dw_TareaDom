@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content= >
+    <meta name="keywords" content= >
+    <link rel="stylesheet" href="estilos.css"> 
+    <script src="javascript.js" language="javascript" type="text/javascript"></script>
+
+    <!--BoOTSTRAP -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <title>Ejercicio 2</title> 
+</head>
+<body>
+
+    <div id="contenido">
+        <section id=seccion>
+          
+            <img class="imagen" src="javascript.png" id=imagen1>
+            <img class="imagen" src="umg.jpg" id=imagen2>
+           
+            <br><br><br><br><br><br>
+            
+            <div id=lista>
+            <ol id=listaOrdenada>
+               <li>Parcial II</li> 
+               <li>Desarrollo Web</li>
+               <li>Ejercicio Práctico 3</li>
+               <li>Trabajando en el Dom</li>
+            </ol>
+        </div>
+        
+        <button type="button" class="btn btn-outline-primary btn-lg btn-block" onclick="add()">Añadir contenido</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg btn-block" onclick="edit()">Modificar contenido</button>
+        <button type="button" class="btn btn-outline-danger btn-lg btn-block" onclick="delet()">Eliminar contenido</button>
+        </section>
+    </div>    
+</body>
+</html>

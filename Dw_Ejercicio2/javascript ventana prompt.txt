@@ -1,0 +1,4 @@
+<script type= "text/javascript">
+	var nombre= window.prompt("Ingresa tu nombre");
+	var edad= prompt("Ingresa tu edad");
+</script>
